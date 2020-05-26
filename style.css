@@ -1,0 +1,55 @@
+
+		.cls-1{fill:#010101}
+
+		.cls-4{fill:#e8a13d}
+
+		.cls-5{fill:#f7e7d0}
+
+		.cls-6{fill:#b84f52}
+
+		.svg {
+			width: 100%;
+			height: auto;
+		}
+@keyframes egg {
+0%   {transform: translateY(0)}
+  25%  {transform: translateY(-25px)}
+  75%  {transform: translateY(25px)}
+  100% {transform: translateY(0)}
+}
+.egg {
+	animation: egg 3s linear infinite;
+}
+@keyframes BT 
+{
+	0%        {opacity: 0}
+  15%, 70%  {opacity: 1}
+  85%, 100% {opacity: 0}
+
+}
+@keyframes BT 
+{
+0%   {transform: translateY(0)}
+  25%  {transform: translateY(-25px)}
+  75%  {transform: translateY(25px)}
+  100% {transform: translateY(0)}
+}
+.BT {
+	animation: BT 7s ease infinite
+}
+.BT 
+{
+	animation: BT 5s linear infinite;
+}
+
+@keyframes bacon {
+0%   {transform: translateY(0)}
+  25%  {transform: translateY(-25px)}
+  75%  {transform: translateY(25px)}
+  100% {transform: translateY(0)}
+
+
+}
+.bacon {
+	animation: bacon 1s linear infinite
+}
